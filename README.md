@@ -191,6 +191,17 @@ This guide provides step-by-step instructions for training Tesseract 5 in a Dock
     make tesseract-langdata
     ```
 
+## ⚠️ [Attention](https://github.com/Y3454R/tesseract-train-docker): Setup Complete Up to This Point
+
+The setup process has been successfully completed until the fetching of the Tesseract language data. From here on, you will need to gather and organize the training data (images and ground truth files) before continuing with the model training.
+
+Next Steps:
+
+    Obtain training data files (.tif and .gt.txt).
+    Organize them and move them to the shared directory (Docker_Share).
+
+Note: The following steps are required to proceed with training your Tesseract OCR model.
+
 ## Get Training Data
 
 To train a Tesseract OCR model, you need the following training data:
